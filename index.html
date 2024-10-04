@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>me gusta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <main>
+        <section>
+            <div id="perfil">
+                <img src="icono.png.png" alt="icono" height="200px">
+                <h3>Adrien Desplatz</h3>
+            </div>
+        </section>
+        <section>
+            <div id="yourfeed">
+                <h1>Your Feed</h1>
+            </div>
+            <section class="feed">
+                <article class="persona">
+                    <h3>Linn O.</h3>
+                        <p>Acabo de configurar este nuevo boot de Discord, cuéntenme que opinan ustedes. <a href="#">link.</a></p>
+                </article>
+                <div>
+                    <p class="boton"><span id="meGusta1">0</span>likes</p>
+                        <div id="div1">
+                            <button class="like" id="btn1" onclick="darLike('meGusta1')">Me gusta</button>
+                        </div>
+                </div>
+            </section>
+            <section class="feed">
+                <article class="persona">
+                    <h3>Lina K.</h3>
+                        <p>Acabo de terminar este <a href="#">nuevo comic</a>, denle un vistaso.</p>
+                </article>
+                <div>
+                    <p class="boton"><span id="meGusta2">0 </span>likes</p>
+                        <div id="div2">
+                            <button class="like"  id="btn2" onclick="darLike2('meGusta2')">Me gusta</button>
+                        </div>
+                </div>
+            </section>
+            <section class="feed">
+                <article class="persona">
+                    <h3>Mateo H.</h3>
+                        <p>No puedo dejar de escuchar este <a href="">album</a> ¿A quien más le gusta?.</p>
+                </article>
+                <div>
+                    <p class="boton"><span id="meGusta3">0</span>likes</p>
+                        <div id="div3">
+                            <button class="like" id="btn3" onclick="darLike3('meGusta3')">Me gusta</button>
+                        </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
